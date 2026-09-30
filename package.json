@@ -1,0 +1,25 @@
+{
+  "name": "rentlio-health-check",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Rentlio ONE Health Check za iznajmljivače – interaktivni upitnik (Next.js 12 + styled-components, isti stack kao rentl.io)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.3.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "styled-components": "5.3.11"
+  },
+  "devDependencies": {
+    "eslint": "8.57.0",
+    "eslint-config-next": "12.3.4"
+  },
+  "engines": {
+    "node": ">=16.14"
+  }
+}

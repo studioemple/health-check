@@ -1,0 +1,7 @@
+# Samostalni deploy na Netlify (rentl.io je također na Netlifyju)
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
